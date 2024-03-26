@@ -252,7 +252,10 @@ export default function Home() {
 
         <div className="flex flex-wrap gap-20 items-center justify-center">
           {managements.map((item: any) => (
-            <div className="flex flex-col justify-center items-center w-full lg:w-3/12">
+            <div
+              key={item.name}
+              className="flex flex-col justify-center items-center w-full lg:w-3/12"
+            >
               <p className="text-2xl font-semibold">{item.name}</p>
               <p>{item.title}</p>
             </div>
@@ -270,7 +273,10 @@ export default function Home() {
 
         <div className="flex flex-wrap gap-20 items-center justify-center">
           {recovery_specialists.map((item: any) => (
-            <div className="flex flex-col justify-center items-center w-full lg:w-3/12">
+            <div
+              key={item.name}
+              className="flex flex-col justify-center items-center w-full lg:w-3/12"
+            >
               <p className="text-2xl font-semibold">{item.name}</p>
               <p>{item.title}</p>
             </div>
@@ -288,7 +294,10 @@ export default function Home() {
 
         <div className="flex flex-wrap gap-20 items-center justify-center">
           {legal_and_case_management.map((item: any) => (
-            <div className="flex flex-col justify-center items-center w-full lg:w-3/12">
+            <div
+              key={item.name}
+              className="flex flex-col justify-center items-center w-full lg:w-3/12"
+            >
               <p className="text-2xl font-semibold">{item.name}</p>
               <p>{item.title}</p>
             </div>
@@ -306,7 +315,10 @@ export default function Home() {
 
         <div className="flex flex-wrap gap-20 items-center justify-center">
           {research_specialists.map((item: any) => (
-            <div className="flex flex-col justify-center items-center w-full lg:w-3/12">
+            <div
+              key={item.name}
+              className="flex flex-col justify-center items-center w-full lg:w-3/12"
+            >
               <p className="text-2xl font-semibold">{item.name}</p>
               <p>{item.title}</p>
             </div>
@@ -322,7 +334,10 @@ export default function Home() {
 
         <div className="flex flex-wrap gap-20 items-center justify-center">
           {administrative.map((item: any) => (
-            <div className="flex flex-col justify-center items-center w-full lg:w-3/12">
+            <div
+              key={item.name}
+              className="flex flex-col justify-center items-center w-full lg:w-3/12"
+            >
               <p className="text-2xl font-semibold">{item.name}</p>
               <p>{item.title}</p>
             </div>
