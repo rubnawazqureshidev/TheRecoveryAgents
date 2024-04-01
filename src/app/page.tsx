@@ -178,11 +178,12 @@ export default function Home() {
         </div>
 
         <div className="flex flex-wrap lg:flex-nowrap gap-20">
-          <div>
+          <div className="w-full lg:w-4/12">
             <img
-              src="https://www.therecoveryagents.com/wp-content/uploads/2022/03/Jacob-Babins.jpg"
-              className="w-[20rem] mb-4 h-[20rem] mx-auto"
+              src="/portrait-4568762_640.jpg"
+              className=" mb-4 mx-auto rounded-xl object-fill h-80 w-72"
             />
+
             <p className="text-2xl font-semibold text-center">Jacob Babins</p>
             <p className="text-xl text-center">President and Founder</p>
             <p className="mt-4 text-center text-gray-500">
@@ -198,10 +199,10 @@ export default function Home() {
               from Clemson University.
             </p>
           </div>
-          <div>
+          <div className="w-full lg:w-4/12">
             <img
-              src="https://www.therecoveryagents.com/wp-content/uploads/2022/03/Jim-McCabe.jpg"
-              className="w-[20rem] mb-4 h-[20rem] mx-auto"
+              src="/portrait-3353699_640.jpg"
+              className=" mb-4 mx-auto rounded-xl object-fill h-80 w-72"
             />
             <p className="text-2xl font-semibold text-center">Jim McCabe</p>
             <p className="text-xl text-center">Co-Founder</p>
@@ -220,10 +221,10 @@ export default function Home() {
               Florida.
             </p>
           </div>
-          <div>
+          <div className="w-full lg:w-4/12">
             <img
-              src="https://www.therecoveryagents.com/wp-content/uploads/2022/03/Jacob-Babins.jpg"
-              className="w-[20rem] mb-4 h-[20rem] mx-auto"
+              src="/male-2634974_640.jpg"
+              className=" mb-4 mx-auto rounded-xl object-fill h-80 w-72"
             />
             <p className="text-2xl font-semibold text-center">Ashton Rooks</p>
             <p className="text-xl text-center">Lead Counsel</p>
