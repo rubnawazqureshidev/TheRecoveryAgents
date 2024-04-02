@@ -177,11 +177,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-wrap lg:flex-nowrap gap-20">
+        <div className="flex items-center flex-wrap lg:flex-nowrap gap-20">
           <div className="w-full lg:w-4/12">
-            <img
-              src="/portrait-4568762_640.jpg"
-              className=" mb-4 mx-auto rounded-xl object-fill h-80 w-72"
+            <Image
+              src="/tm1.jpg"
+              width={225}
+              height={125}
+              alt="team"
+              className=" mb-4 mx-auto rounded-sm"
             />
 
             <p className="text-2xl font-semibold text-center">Jacob Babins</p>
@@ -200,9 +203,12 @@ export default function Home() {
             </p>
           </div>
           <div className="w-full lg:w-4/12">
-            <img
-              src="/portrait-3353699_640.jpg"
-              className=" mb-4 mx-auto rounded-xl object-fill h-80 w-72"
+            <Image
+              src="/tm2.jpg"
+              width={225}
+              height={125}
+              alt="team"
+              className=" mb-4 mx-auto rounded-sm"
             />
             <p className="text-2xl font-semibold text-center">Jim McCabe</p>
             <p className="text-xl text-center">Co-Founder</p>
@@ -222,9 +228,12 @@ export default function Home() {
             </p>
           </div>
           <div className="w-full lg:w-4/12">
-            <img
-              src="/male-2634974_640.jpg"
-              className=" mb-4 mx-auto rounded-xl object-fill h-80 w-72"
+            <Image
+              src="/tm3.png"
+              width={300}
+              height={125}
+              alt="team"
+              className=" mb-4 mx-auto rounded-sm"
             />
             <p className="text-2xl font-semibold text-center">Ashton Rooks</p>
             <p className="text-xl text-center">Lead Counsel</p>
@@ -366,7 +375,7 @@ export default function Home() {
                     className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
                     href="#"
                   >
-                     904-835-1152
+                    904-835-1152
                   </a>
                 </div>
               </div>
